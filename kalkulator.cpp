@@ -1,15 +1,12 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
-
 using namespace std;
 
 void petunjuk();
-
-main ()
-{
+main (){
+  
 petunjuk(); //tampilkan petunjuk
-
 double Hasil;
 double Angka;
 double AngkaMasukan;
@@ -18,7 +15,6 @@ char jwb;
 
 cout << "Masukan Angka = ";
 cin >> Angka;
-
 {
 //jika angka yang mau di hitung masih nol
 if (Angka == 0) {
@@ -28,8 +24,7 @@ cin >> Angka;
 cout << "Operasi : ";
 cin >> op;
 
-switch(op)
-{
+switch(op){
 case 'c' : Angka = 0;
 break;
 
@@ -67,11 +62,8 @@ Hasil = pow(Angka,AngkaMasukan);
 cout << "Hasilnya adalah : " << Hasil << endl;
 Angka = Hasil;
 break;
-
 }
-
 }
-
 return 0;
 }
 void petunjuk()
