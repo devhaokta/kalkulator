@@ -74,7 +74,6 @@ break;
 
 return 0;
 }
-
 void petunjuk()
 {
 
